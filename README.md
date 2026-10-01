@@ -2,7 +2,11 @@ cat > README.md <<'EOF'
 # AI SOC Alert Triage System
 
 An AI-assisted Security Operations Center (SOC) alert triage platform that detects suspicious authentication activity, extracts indicators of compromise (IOCs), enriches alerts with threat intelligence, and uses a locally hosted LLM to assist analysts with investigation.
+## Dashboard
 
+The Streamlit dashboard provides a SOC analyst view of detected security alerts, IOC extraction, threat intelligence enrichment, and AI-assisted investigation.
+
+![AI SOC Alert Triage Dashboard](screenshots/dashboard.png)
 ## Project Overview
 
 Security analysts often need to investigate large numbers of alerts containing authentication events, suspicious IP addresses, and repeated login failures.
